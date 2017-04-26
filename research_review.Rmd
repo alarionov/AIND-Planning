@@ -1,0 +1,30 @@
+---
+title: "Research Review"
+author: "Artem Larionov"
+date: "4/26/2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Research Review
+
+### A\*
+In computer science, A\* is a computer algorithm that is widely used in pathfinding and graph traversal, the process of plotting an efficiently directed path between multiple points, called nodes. It enjoys widespread use due to its performance and accuracy. However, in practical travel-routing systems, it is generally outperformed by algorithms which can pre-process the graph to attain better performance, although other work has found A* to be superior to other approaches.
+
+Peter Hart, Nils Nilsson and Bertram Raphael of Stanford Research Institute (now SRI International) first described the algorithm in 1968.[^1] It is an extension of Edsger Dijkstra's 1959 algorithm. A* achieves better performance by using heuristics to guide its search.[^2]
+
+### STRIPS
+In artificial intelligence, STRIPS (Stanford Research Institute Problem Solver) is an automated planner developed by Richard Fikes and Nils Nilsson in 1971 at SRI International[^3]. The same name was later used to refer to the formal language of the inputs to this planner. This language is the base for most of the languages for expressing automated planning problem instances in use today; such languages are commonly known as action languages.[^4] 
+
+## Planning Domain Definition Language
+The Planning Domain Definition Language (PDDL) is an attempt to standardize Artificial Intelligence (AI) planning languages. It was first developed by Drew McDermott and his colleagues in 1998[^5] (inspired by STRIPS and ADL among others) mainly to make the 1998/2000 International Planning Competition (IPC) possible, and then evolved with each competition.[^6]
+
+[^1]: A Formal Basis for the Heuristic Determination of Minimum ost Path
+[^2]: [A* search algorithm, Wikipedia](https://en.wikipedia.org/wiki/A*_search_algorithm)
+[^3]: STRIPS: A New Approach to the Application of. Theorem Proving to Problem Solving.
+[^4]: [STRIPS, Wikipedia](https://en.wikipedia.org/wiki/STRIPS)
+[^5]: PDDL - The Planning Domain Definition Language
+[^6]: [Planning Domain Definition Language, Wikipedia](https://en.wikipedia.org/wiki/Planning_Domain_Definition_Language)
